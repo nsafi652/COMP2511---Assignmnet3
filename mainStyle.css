@@ -1,0 +1,65 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(230, 232, 232);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skip{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width:1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus {
+    position: static;
+    width:auto;
+    height: auto;
+}
+table,th,td {
+    border: 2px solid black;
+}
+.certificate{
+    color: brown;
+}
+a:hover{
+    color: rgb(15, 89, 64);
+}
+footer{
+    background-color: rgb(93, 135, 135);
+    padding: 20px;
+}
+.navigation{
+    display: flex;
+    font-size: large;
+    list-style: none;
+    border: none;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(93, 135, 135);
+    padding:15px 32px;
+    margin: 4px 2px;
+    text-decoration: none;
+    justify-content: space-around;
+    height: 86px;
+    
+
+}
+
+#here{
+    background-color: rgb(200, 241, 241);
+}
+.nextPage{
+    background-color: rgb(200, 241, 241);
+}
+#goUp{
+    border: none;
+    padding:15px 32px;
+    margin: 4px 2px;
+    justify-content: space-around;
+    background-color: rgb(178, 190, 133);
+
+}
