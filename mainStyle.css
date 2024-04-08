@@ -1,10 +1,16 @@
-body{
+.body{
     font-family: arial, sans-serif;
     background-color: rgb(230, 232, 232);
     color: black;
     margin-left: auto;
     margin-right: auto;
 }
+
+#fieldset{
+    align-content: center;
+    border: 1px solid rgb(102, 106, 221);
+}
+
 .skip{
     position: absolute;
     left: -10000px;
@@ -18,18 +24,22 @@ body{
     width:auto;
     height: auto;
 }
+
+
 table,th,td {
     border: 2px solid black;
 }
 .certificate{
     color: brown;
 }
-a:hover{
+.body a:hover{
     color: rgb(15, 89, 64);
 }
 footer{
     background-color: rgb(93, 135, 135);
     padding: 20px;
+    color: aliceblue;
+    font-size: larger;
 }
 .navigation{
     display: flex;
@@ -49,17 +59,10 @@ footer{
 
 }
 
-#here{
-    background-color: rgb(200, 241, 241);
-}
-.nextPage{
-    background-color: rgb(200, 241, 241);
-}
 #goUp{
     border: none;
     padding:15px 32px;
     margin: 4px 2px;
     justify-content: space-around;
     background-color: rgb(178, 190, 133);
-
 }
